@@ -1,5 +1,6 @@
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
+import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
 import {FiDownload} from 'react-icons/fi'
 
@@ -13,7 +14,7 @@ const Home = () => {
             <span className="text-xl">Software Developer</span>
             <h1 className="h1 mb-6">
               Hello I'm
-              <br /> <span className="text-accent">Prathamesh K.</span>
+              <br /> <span className="text-accent">Prathamesh Kumbhar</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
               Self-taught Android Developer with over 2 years of experience in
@@ -48,6 +49,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <Stats/>
+
     </section>
   );
 };
