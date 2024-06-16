@@ -6,26 +6,27 @@ import {CiMenuFries} from "react-icons/ci";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
 const links = [
-    {
-        name: 'home',
-        path: '/'
-    },
-    {
-        name: 'services',
-        path: '/services'
-    },
-    {
-        name: 'resume',
-        path: '/resume'
-    },
-    {
-        name: 'work',
-        path: '/work'
-    },
-    {
-        name: 'contact',
-        path: '/contact'
-    },
+  {
+    name: "home",
+    path: "/",
+  },
+  {
+    name: "resume",
+    path: "/resume",
+  },
+  {
+    name: "projects",
+    path: "/projects",
+  },
+
+  {
+    name: "services",
+    path: "/services",
+  },
+  {
+    name: "contact",
+    path: "/contact",
+  },
 ];
 
 const MobileNav = () => {
