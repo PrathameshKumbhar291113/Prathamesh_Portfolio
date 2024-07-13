@@ -22,7 +22,7 @@ import {
     SiPostgresql,
     SiPostman,
     SiFirebase
-  } from "react-icons/si";
+} from "react-icons/si";
 
   //about data
   const about = {
@@ -102,19 +102,19 @@ import {
     description:"Quick learner and Self taught Android Developer with over 2+ years of experience in Android Development using Java, Kotlin and adept at writing high quality code for mobile application development with user-friendly user interfaces for users. Efficient with Agile development methodology for module testing and proficient in debugging and fixing errors.",
     items: [
       {
-        institution: "Vasantdada Patil Pratisthan's College Of Engineering & VA.",
-        degree: "Bachelor Of Engineering in Information Technology.",
+        institution: "University Of Mumbai",
+        degree: "Bachelor of Engineering in IT",
         result: "8.425 CGPA",
         duration: "Jan 2021 - July 2024"
       },
       {
-        institution:"Amrita Vidyalayam High School.",
+        institution:"Amrita Vidyalayam School.",
         degree: "11th & 12th Science PCM.",
         result: "65.2%",
         duration:"Jun 2018 - Jun 2020"
       },
       {
-        institution:"Mahatma Gandhi Mission Primary & Secondary School.",
+        institution:"MGM School.",
         degree: "1st - 10th Standard.",
         result: "80.0%",
         duration:"Jun 2008 - Jun 2018"
@@ -189,26 +189,109 @@ import {
   };
 
 const Resume = () => {
-    return(
-        <motion.div initial = {{opacity: 0}}
-        animate = {{
+    return (
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
           opacity: 1,
-          transition: {delay: 2.4, duration:0.4, ease:"easeIn"},
+          transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
         }}
         className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
-        >
+      >
         <div className="container mx-auto">
-          <Tabs defaultValue="experience"
-          className="flex flex-col xl:flex-row gap-[60px]">
-            <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
-            <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="aboutme">About Me</TabsTrigger>
+          <Tabs
+            defaultValue="experience"
+            className="flex flex-col xl:flex-row gap-[60px]"
+          >
+            <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+              <TabsTrigger value="experience">Experience</TabsTrigger>
+              <TabsTrigger value="education">Education</TabsTrigger>
+              <TabsTrigger value="skills">Skills</TabsTrigger>
+              <TabsTrigger value="aboutme">About Me</TabsTrigger>
             </TabsList>
+
+            <div className="min-h-[70vh] w-full">
+              <TabsContent value="experience" className="w-full h-full">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h3 className="text-4xl font-bold">{experience.title}</h3>
+                  <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">
+                    {experience.description}
+                  </p>
+                  <ScrollArea className="h-[400px]">
+                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                      {experience.items.map((item, index) => {
+                        return (
+                          <li
+                            key={index}
+                            className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          >
+                            <span className="text-accent">{item.duration}</span>
+                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                              {item.position}
+                            </h3>
+                            <div className="flex items-center gap-3">
+                              <span className="w-[8px] h-[8px] rounded-full bg-accent "></span>
+                              <p className="text-white/60">{item.company}</p>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </ScrollArea>
+                </div>
+              </TabsContent>
+
+              <TabsContent value="education" className="w-full">
+                <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                  <h3 className="text-4xl font-bold">{education.title}</h3>
+                  <p className="max-w-[750px] text-white/60 mx-auto xl:mx-0">
+                    {education.description}
+                  </p>
+                  <ScrollArea className="h-[400px]">
+                    <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                      {education.items.map((item, index) => {
+                        return (
+                          <li
+                            key={index}
+                            className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          >
+                            <span className="text-accent">{item.duration}</span>
+                            <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                              {item.degree}
+                            </h3>
+                            <div className="flex items-center gap-3">
+                              <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
+                              <p className="text-white/60">{item.result}</p>
+                            </div>
+                            <div className="flex items-center gap-3">
+                              <span className="w-[6px] h-[6px] rounded-full bg-accent "></span>
+                              <p className="text-white/60">
+                                {item.institution}
+                              </p>
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </ScrollArea>
+                </div>
+              </TabsContent>
+
+              <TabsContent value="skills" className="w-full h-full">
+                <div className="flex flex-col gap-[30px]">
+                  <div>
+                    <h3></h3>
+                  </div>
+                </div>
+              </TabsContent>
+
+              <TabsContent value="aboutme" className="w-full">
+                About
+              </TabsContent>
+            </div>
           </Tabs>
         </div>
-        Resume</motion.div>
+      </motion.div>
     );
 }
 

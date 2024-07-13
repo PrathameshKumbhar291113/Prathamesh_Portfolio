@@ -1,4 +1,6 @@
 {
     "css.customData": [".vscode/tailwind.json"],
-    "scss.lint.unknownAtRules": "ignore"
+    "scss.lint.unknownAtRules": "ignore",
+    "editor.fontFamily": "Fira Code, monospace",
+    "editor.fontSize": 16
 }
