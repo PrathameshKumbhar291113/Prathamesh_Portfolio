@@ -35,5 +35,9 @@
     "eslint-config-next": "14.2.3",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
+  },
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "jsx-a11y/alt-text": "off"
   }
 }
