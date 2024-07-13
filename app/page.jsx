@@ -4,14 +4,13 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-import { FiDownload } from 'react-icons/fi';
+import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
-
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'Prathamesh_Kumbhar_Resume.pdf';
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.download = "Prathamesh_Kumbhar_Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -41,7 +40,8 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
-                onClick={handleDownload}>
+                onClick={handleDownload}
+              >
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
@@ -63,6 +63,8 @@ const Home = () => {
       </div>
 
       <Stats />
+
+      <div className="mb-8 xl:mb-16"></div>
     </section>
   );
 };
