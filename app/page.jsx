@@ -64,7 +64,7 @@ const Home = () => {
 
       <Stats />
 
-      <div className="mb-8 xl:mb-16"></div>
+      
     </section>
   );
 };

@@ -75,6 +75,7 @@ const Project = () => {
   };
 
   return (
+    
     <motion.section
       initial={{ opacity: 0 }}
       animate={{
