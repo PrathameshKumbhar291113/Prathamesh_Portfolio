@@ -104,7 +104,7 @@ const Contact = () => {
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >
               <h3 className="text-2xl xl:text-4xl text-accent">
-                Let's Work Together
+              Let&apos;s Work Together
               </h3>
               <p className="text-white/60 text-sm xl:text-md">
                 Please complete the form below to get in touch with me.
