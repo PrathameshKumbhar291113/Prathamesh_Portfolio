@@ -35,7 +35,7 @@ import {
 const about = {
   title: "About Me",
   description:
-    "Quick learner and Self taught Android Developer with over 2+ years of experience in Android Development using Java, Kotlin and adept at writing high quality code for mobile application development with user-friendly user interfaces for users. Efficient with Agile development methodology for module testing and proficient in debugging and fixing errors.",
+    "I'm a passionate software developer dedicated to continuous learning and innovation. With a strong educational background and practical experience, I thrive in dynamic environments, always aiming to deliver exceptional solutions and drive technological advancement.",
   info: [
     {
       fieldName: "Name",
@@ -77,7 +77,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "Quick learner and Self taught Android Developer with over 2+ years of experience in Android Development using Java, Kotlin and adept at writing high quality code for mobile application development with user-friendly user interfaces for users. Efficient with Agile development methodology for module testing and proficient in debugging and fixing errors.",
+    "With over 2 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
   items: [
     {
       company: "General Diagnostics International Pvt. Ltd.",
@@ -107,7 +107,7 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
   description:
-    "Quick learner and Self taught Android Developer with over 2+ years of experience in Android Development using Java, Kotlin and adept at writing high quality code for mobile application development with user-friendly user interfaces for users. Efficient with Agile development methodology for module testing and proficient in debugging and fixing errors.",
+    "I earned my Bachelor of Engineering in IT from Mumbai University, where I developed a solid foundation in computer science and software engineering. My education has equipped me with the skills and knowledge to excel in the tech industry.",
   items: [
     {
       institution: "University Of Mumbai",
@@ -134,7 +134,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Quick learner and Self taught Android Developer with over 2+ years of experience in Android Development using Java, Kotlin and adept at writing high quality code for mobile application development with user-friendly user interfaces for users. Efficient with Agile development methodology for module testing and proficient in debugging and fixing errors.",
+   "My core expertise lies in building full-stack mobile applications, encompassing both front-end and back-end development. I'm adept at using modern programming languages and frameworks, and my quick learning attitude ensures I stay ahead in the ever-evolving tech landscape.",
   skillList: [
     {
       icon: <FaAndroid />,
