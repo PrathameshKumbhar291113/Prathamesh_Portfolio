@@ -98,7 +98,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* form */}
-          <div className="xl:h-[54%] order-2 xl:order-none">
+          <div className="xl:w-[54%] order-2 xl:order-none">
             <form
               onSubmit={handleSubmit}
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
