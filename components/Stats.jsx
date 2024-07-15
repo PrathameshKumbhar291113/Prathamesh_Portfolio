@@ -16,7 +16,7 @@ const stats = [
       text: "Technology Expertise"
     },
     {
-      num: 580,
+      num: 582,
       text: "Code Commits"
     },
 ];
