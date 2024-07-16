@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
       </head>
       <body className={jetbrainsMono.variable}>
         <Header />
