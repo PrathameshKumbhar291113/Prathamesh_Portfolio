@@ -6,10 +6,11 @@ import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
 
-const jetbrainsMono = JetBrains_Mono({ 
-subsets: ["latin"],
-weight: ["100","200","300","400","500","600","700","800"],
-variable: '--font-jetbrainsMono'});
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-jetbrainsMono",
+});
 
 export const metadata = {
   title: "Prathamesh Kumbhar",
@@ -22,14 +23,13 @@ export default function RootLayout({ children }) {
       <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/p.png" />
+        <link rel="icon" href="/p.png" type="/p.png"/>
       </head>
       <body className={jetbrainsMono.variable}>
         <Header />
-        <StairTransition/>
+        <StairTransition />
         <PageTransition>{children}</PageTransition>
-        
-        </body>
+      </body>
     </html>
   );
 }
