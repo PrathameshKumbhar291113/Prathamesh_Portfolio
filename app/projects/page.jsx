@@ -34,6 +34,22 @@ const projects = [
   },
   {
     num: "02",
+    category: "Android Library",
+    title: "Material X",
+    description:
+      "Created Material X, an Android UI library with customizable dialog boxes and pickers. Integrated Motion Sync for synchronized component movement with phone tilt, enhancing user interaction.",
+    stack: [
+      { name: "Android" },
+      { name: "Kotlin" },
+      { name: "Jetpack Compose" },
+      { name: "XML" },
+    ],
+    image: "/assets/work/materialx.jpg",
+    live: "https://jitpack.io/#PrathameshKumbhar291113/MaterialX/1.0.4",
+    github: "https://github.com/PrathameshKumbhar291113/MaterialX",
+  },
+  {
+    num: "03",
     category: "Fullstack",
     title: "Cradle Care",
     description:
@@ -49,7 +65,7 @@ const projects = [
     github: "https://github.com/PrathameshKumbhar291113/Cradle-Care-Backend",
   },
   {
-    num: "03",
+    num: "04",
     category: "Frontend",
     title: "Crop Bit",
     description:
@@ -114,7 +130,7 @@ const Project = () => {
                text-white group-hover:text-accent 
                transition-all duration-500 capitalize"
               >
-                {project.category} project
+                 {project.category} {project.category.toLowerCase().includes('library') ? '' : 'Project'}
               </h3>
 
               <p className="text-white/60">{project.description}</p>
