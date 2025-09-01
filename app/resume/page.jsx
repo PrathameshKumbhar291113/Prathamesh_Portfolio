@@ -77,7 +77,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "With over 2 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
+    "With over 3 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
   items: [
     {
       company: "General Diagnostics International Pvt. Ltd.",
