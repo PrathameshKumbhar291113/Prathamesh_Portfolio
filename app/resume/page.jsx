@@ -16,6 +16,11 @@ import {
   FaFirebase,
   FaGit,
   FaJira,
+  FaJenkins,
+  FaAws,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
 } from "react-icons/fa";
 import {
   SiKotlin,
@@ -29,6 +34,13 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiTailwindcss,
+  SiDocker,
+  SiSpring,
+  SiSpringboot,
+  SiDotnet,
+  SiCsharp,
+  SiJetpackcompose,
+  SiGraphql,
 } from "react-icons/si";
 
 //about data
@@ -47,7 +59,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years",
+      fieldValue: "2.3 Years",
     },
     {
       fieldName: "Nationality",
@@ -63,11 +75,11 @@ const about = {
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Marathi",
+      fieldValue: "English, Marathi, Hindi, Japanese",
     },
     {
       fieldName: "Hobbies",
-      fieldValue: "Singing, Guitar",
+      fieldValue: "Singing, Guitar, Football",
     },
   ],
 };
@@ -77,7 +89,7 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "With over 3 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
+    "With over 2.3 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
   items: [
     {
       company: "General Diagnostics International Pvt. Ltd.",
@@ -86,12 +98,12 @@ const experience = {
     },
     {
       company: "Spare8 Platforms Pvt. Ltd.",
-      position: "Android Engineer",
+      position: "Android Engineer Intern",
       duration: "Mar 2023 - Nov 2023",
     },
     {
       company: "Byasa Tech Solutions Pvt. Ltd.",
-      position: "Jr. Mobile Application Developer",
+      position: "Mobile Application Developer Intern",
       duration: "Oct 2022 - Mar 2023",
     },
     {
@@ -112,7 +124,7 @@ const education = {
     {
       institution: "University Of Mumbai",
       degree: "Bachelor of Engineering in IT",
-      result: "8.425 CGPA",
+      result: "8.12 CGPA",
       duration: "Jan 2021 - July 2024",
     },
     {
@@ -145,20 +157,40 @@ const skills = {
       name: "Kotlin",
     },
     {
+      icon: <SiJetpackcompose />,
+      name: "Jetpack Compose",
+    },
+    {
       icon: <FaJava />,
       name: "Java",
     },
     {
-      icon: <SiKtor />,
-      name: "Ktor",
+      icon: <SiSpring />,
+      name: "Spring",
     },
     {
-      icon: <SiDart />,
-      name: "Dart",
+      icon: <SiSpringboot />,
+      name: "Spring Boot",
+    },
+     {
+      icon: <FaAws />,
+      name: "AWS",
     },
     {
-      icon: <SiFlutter />,
-      name: "Flutter",
+      icon: <SiDotnet />,
+      name: "Dotnet",
+    },
+    {
+      icon: <SiCsharp />,
+      name: "C#",
+    },
+    {
+      icon: <FaReact />,
+      name: "React Js",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Node Js",
     },
     {
       icon: <SiNextdotjs />,
@@ -167,14 +199,6 @@ const skills = {
     {
       icon: <SiTailwindcss />,
       name: "Tailwind CSS",
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma",
-    },
-    {
-      icon: <SiFirebase />,
-      name: "Firebase",
     },
     {
       icon: <SiMongodb />,
@@ -189,8 +213,36 @@ const skills = {
       name: "Postgre Sql",
     },
     {
+      icon: <SiGraphql />,
+      name: "Graphql",
+    },
+    {
+      icon: <SiKtor />,
+      name: "Ktor",
+    },
+    {
+      icon: <SiDart />,
+      name: "Dart",
+    },
+    {
+      icon: <SiFlutter />,
+      name: "Flutter",
+    },
+    {
+      icon: <FaFigma />,
+      name: "Figma",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase",
+    },
+    {
       icon: <FaGit />,
       name: "Git",
+    },
+    {
+      icon: <FaGithub />,
+      name: "Git Hub",
     },
     {
       icon: <FaJira />,
@@ -199,6 +251,14 @@ const skills = {
     {
       icon: <SiPostman />,
       name: "Postman",
+    },
+    {
+      icon: <SiDocker />,
+      name: "Docker",
+    },
+    {
+      icon: <FaJenkins />,
+      name: "Jenkins",
     },
   ],
 };

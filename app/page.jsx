@@ -28,10 +28,7 @@ const Home = () => {
               <br /> <span className="text-accent">Prathamesh Kumbhar</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Self-taught Android Developer with over 3 years of experience in
-              Java and Kotlin. Proficient in developing user-friendly fullstack mobile
-              applications, writing high-quality code, and skilled in Agile
-              development, debugging and bug-fixing.
+              Software Developer with 2.3 years of experience in mobile and full-stack development, specializing in Java, Kotlin, Jetpack Compose, Spring Boot, and Clean Architecture, with experience delivering scalable solutions across Healthcare, E-Commerce, and Fintech domains.
             </p>
 
             {/* Buttons and socials */}
