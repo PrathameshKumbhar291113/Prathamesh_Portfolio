@@ -38,9 +38,9 @@ import {
   SiSpring,
   SiSpringboot,
   SiDotnet,
-  SiCsharp,
   SiJetpackcompose,
   SiGraphql,
+  SiCplusplus,
 } from "react-icons/si";
 
 //about data
@@ -181,8 +181,8 @@ const skills = {
       name: "Dotnet",
     },
     {
-      icon: <SiCsharp />,
-      name: "C#",
+      icon: <SiCplusplus />,
+      name: "C++",
     },
     {
       icon: <FaReact />,
