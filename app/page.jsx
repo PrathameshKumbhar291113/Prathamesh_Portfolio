@@ -28,7 +28,9 @@ const Home = () => {
               <br /> <span className="text-accent">Prathamesh Kumbhar</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Software Developer with 2.3 years of experience in mobile and full-stack development, specializing in Java, Kotlin, Jetpack Compose, Spring Boot, and Clean Architecture, with experience delivering scalable solutions across Healthcare, E-Commerce, and Fintech domains.
+              Innovative Software Developer with 3+ years of experience building scalable Android applications and SDKs using Kotlin, Jetpack Compose,
+MVVM/MVI, Clean Architecture, and ASP.NET. Experienced in architecting high-performance solutions, optimizing application reliability,
+and delivering user-centric products across the Gaming, Healthcare, E-Commerce and FinTech domains, including platforms serving 100M+ users.
             </p>
 
             {/* Buttons and socials */}

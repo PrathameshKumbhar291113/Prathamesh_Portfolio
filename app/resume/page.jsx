@@ -59,7 +59,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "2.3 Years",
+      fieldValue: "3+ years",
     },
     {
       fieldName: "Nationality",
@@ -89,12 +89,17 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
   description:
-    "With over 2.3 years of hands-on experience in software development, I've mastered the art of crafting full-stack mobile applications. I've successfully delivered high-quality solutions and collaborated seamlessly with cross-functional teams, contributing significantly to every phase of the development process.",
+    "I'm a Software Developer with 3+ years of experience building scalable Android applications and software solutions. My expertise includes Kotlin, Jetpack Compose, MVVM/MVI, Clean Architecture, and ASP.NET, with a strong focus on performance, scalability, and clean code. I enjoy collaborating with cross-functional teams to build reliable products that deliver meaningful user experiences across healthcare, gaming, and fintech domains. ",
   items: [
+    {
+      company: "N. A. Sportz Interactive Pvt. Ltd.",
+      position: "Associate Software Developer",
+      duration: "Apr 2026 - Present",
+    },
     {
       company: "General Diagnostics International Pvt. Ltd.",
       position: "Software Developer",
-      duration: "Nov 2023 - Present",
+      duration: "Nov 2023 - Apr 2026",
     },
     {
       company: "Spare8 Platforms Pvt. Ltd.",
@@ -122,10 +127,16 @@ const education = {
     "I earned my Bachelor of Engineering in IT from Mumbai University, where I developed a solid foundation in computer science and software engineering. My education has equipped me with the skills and knowledge to excel in the tech industry.",
   items: [
     {
+      institution: "BITS-Pilani",
+      degree: "Master of Technology in AI&ML",
+      result: "Persuing",
+      duration: "Jul 2026 - Jul 2028",
+    },
+    {
       institution: "University Of Mumbai",
       degree: "Bachelor of Engineering in IT",
       result: "8.12 CGPA",
-      duration: "Jan 2021 - July 2024",
+      duration: "Jan 2021 - Jul 2024",
     },
     {
       institution: "Amrita Vidyalayam School.",
